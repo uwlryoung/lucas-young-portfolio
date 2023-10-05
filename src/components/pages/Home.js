@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Portfolio() {
+export default function Home() {
   return (
     <div class="m-4">
-      <h1>Portfolio</h1>
+      <h1>Home</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
