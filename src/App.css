@@ -1,0 +1,36 @@
+:root {
+  --lightBlue: #D2E0FB;
+  --beige: #F9F3CC;
+  --tan: #D7E5CA;
+  --pink: #8EACCD;
+}
+
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#headshot {
+  width: 200px;
+  border-radius: 10px;
+  border: darkblue solid 10px;
+  border-style: double;
+  margin: 5px;
+  margin-left: 25%;
+}
+
+header {
+  background-color: var(--lightBlue);
+  color: darkblue;
+  padding-bottom: 5px;
+}
+
+header h2 {
+  font-size: 75px;
+  padding-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.nav {
+  font-size: 30px
+
+}
