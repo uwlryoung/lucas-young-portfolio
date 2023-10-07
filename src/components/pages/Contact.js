@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
   return (
     <div class="m-4">
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
