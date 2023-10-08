@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div class="m-4">
+    <div className="m-4">
       <h2>Home</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
