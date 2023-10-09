@@ -4,8 +4,12 @@ import characterCreator from "../../assets/images/character-creator.png";
 import movieGiphy from "../../assets/images/movie-giphy.png";
 import readMeGenerator from "../../assets/images/readme-generator.png";
 import weatherForecaster from "../../assets/images/weather-forecaster.png";
-import paswordGenerator from "../../assets/images/password-generator.png";
 import codingQuiz from "../../assets/images/coding-quiz.png";
+import jate from "../../assets/images/jate.png";
+import snsApi from "../../assets/images/sns-api.png";
+import techBlog from "../../assets/images/tech-blog.png";
+import employeeTracker from "../../assets/images/employee-tracker.png";
+import ecommerceDb from "../../assets/images/ecommerce.png";
 
 export default function Portfolio() {
   return (
@@ -14,7 +18,7 @@ export default function Portfolio() {
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
-            <span className="acc-header">Group Projects</span>
+            <span className="acc-header">Fullstack Web Apps</span>
           </Accordion.Header>
           <Accordion.Body>
             <div className="container-fluid">
@@ -23,11 +27,17 @@ export default function Portfolio() {
               </div>
               <div className="row d-flex align-items-center border-bottom pb-3">
                 <div className="col">
-                  <img
-                    src={characterCreator}
-                    className="group-project-pic"
-                    alt="project screenshot"
-                  />
+                  <a
+                    href="https://intense-taiga-65507-7eac3b308146.herokuapp.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={characterCreator}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
                 </div>
                 <div className="col-1"></div>
                 <div className="col">
@@ -42,11 +52,17 @@ export default function Portfolio() {
               </div>
               <div className="row d-flex align-items-center border-bottom pb-3">
                 <div className="col">
-                  <img
-                    src={movieGiphy}
-                    className="group-project-pic"
-                    alt="project screenshot"
-                  />
+                  <a
+                    href="https://uwlryoung.github.io/movie-giphy/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={movieGiphy}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
                 </div>
                 <div className="col-1"></div>
                 <div className="col">
@@ -57,32 +73,55 @@ export default function Portfolio() {
                   </p>
                 </div>
               </div>
-            </div>
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="1">
-          <Accordion.Header>
-            <span className="acc-header">Solo Projects</span>
-          </Accordion.Header>
-          <Accordion.Body>
-            <div className="container-fluid">
-              <div className="row">
-                <h4>Readme Generator</h4>
+              <div className="row pt-3">
+                <h4>J.A.T.E. (Just Another Text Editor)</h4>
               </div>
-              <div className="row d-flex align-items-cente border-bottom pb-3">
+              <div className="row d-flex align-items-center border-bottom pb-3">
                 <div className="col">
-                  <img
-                    src={readMeGenerator}
-                    className="group-project-pic"
-                    alt="project screenshot"
-                  />
+                  <a
+                    href="https://boiling-gorge-54353-e992da97eda8.herokuapp.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={jate}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
                 </div>
                 <div className="col-1"></div>
                 <div className="col">
                   <p>
-                    Command Line Interface program to create README.md files.
-                    User is given prompts to answer to generate a README.md
-                    file.
+                    A text editor that takes notes with JavaScript syntax
+                    highlighting. It can be used from the browser and downloaded
+                    as an app on a browser. A Progressive Web App (PWA).
+                  </p>
+                </div>
+              </div>
+              <div className="row pt-3">
+                <h4>Tech Blogsite</h4>
+              </div>
+              <div className="row d-flex align-items-center border-bottom pb-3">
+                <div className="col">
+                  <a
+                    href="https://cms-tech-blog-1-7f60cfc438f7.herokuapp.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={techBlog}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
+                </div>
+                <div className="col-1"></div>
+                <div className="col">
+                  <p>
+                    Search for movies and get information about the movie
+                    (summary, actors, release date) along with gif images
+                    related to that movie and its top three actors.
                   </p>
                 </div>
               </div>
@@ -106,38 +145,133 @@ export default function Portfolio() {
                 </div>
               </div>
               <div className="row pt-3">
-                <h4>Password Generator</h4>
-              </div>
-              <div className="row d-flex align-items-center border-bottom pb-3">
-                <div className="col">
-                  <img
-                    src={paswordGenerator}
-                    className="group-project-pic"
-                    alt="project screenshot"
-                  />
-                </div>
-                <div className="col-1"></div>
-                <div className="col">
-                  <p>
-                    A password generator. Users can specify the type of characters they would like to include, and the length of the password between 8 - 128 characters
-                  </p>
-                </div>
-              </div>
-              <div className="row pt-3">
                 <h4>Coding Quiz</h4>
               </div>
               <div className="row d-flex align-items-center border-bottom pb-3">
                 <div className="col">
-                  <img
-                    src={codingQuiz}
-                    className="group-project-pic"
-                    alt="project screenshot"
-                  />
+                  <a href="https://uwlryoung.github.io/coding-quiz/">
+                    <img
+                      src={codingQuiz}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
                 </div>
                 <div className="col-1"></div>
                 <div className="col">
                   <p>
-                    A Quiz Game to test a user's knowledge about HTML, CSS and JavaScript.
+                    A Quiz Game to test a user's knowledge about HTML, CSS and
+                    JavaScript.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="1">
+          <Accordion.Header>
+            <span className="acc-header">Backend Projects</span>
+          </Accordion.Header>
+          <Accordion.Body>
+            <div className="container-fluid">
+              <div className="row">
+                <h4>Social Network API</h4>
+              </div>
+              <div className="row d-flex align-items-cente border-bottom pb-3">
+                <div className="col">
+                  <a
+                    href="https://github.com/uwlryoung/social-network-api"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={snsApi}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
+                </div>
+                <div className="col-1"></div>
+                <div className="col">
+                  <p>
+                    A backend database for a social network where you can
+                    add/update/delete users, add/update/delete user thoughts,
+                    add/delete thought reactions, and add/remove users as
+                    friends.
+                  </p>
+                </div>
+              </div>
+              <div className="row pt-3">
+                <h4>Readme Generator</h4>
+              </div>
+              <div className="row d-flex align-items-cente border-bottom pb-3">
+                <div className="col">
+                  <a
+                    href="https://github.com/uwlryoung/readme-generator"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={readMeGenerator}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
+                </div>
+                <div className="col-1"></div>
+                <div className="col">
+                  <p>
+                    Command Line Interface program to create README.md files.
+                    User is given prompts to answer to generate a README.md
+                    file.
+                  </p>
+                </div>
+              </div>
+              <div className="row pt-3">
+                <h4>Employee Tracker</h4>
+              </div>
+              <div className="row d-flex align-items-cente border-bottom pb-3">
+                <div className="col">
+                  <a
+                    href="https://github.com/uwlryoung/employee-tracker"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={employeeTracker}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
+                </div>
+                <div className="col-1"></div>
+                <div className="col">
+                  <p>
+                    A backend database for a company to keep track of employees. Users can interact with the databse by viewing the different departments, roles, employees and add/delete/edit those categories. 
+                  </p>
+                </div>
+              </div>
+              <div className="row pt-3">
+                <h4>E-commerce Backend</h4>
+              </div>
+              <div className="row d-flex align-items-cente border-bottom pb-3">
+                <div className="col">
+                  <a
+                    href="https://github.com/uwlryoung/e-commerce-backend"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={ecommerceDb}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
+                </div>
+                <div className="col-1"></div>
+                <div className="col">
+                  <p>
+                    A backend database for an ecommerce website where you can add/update/delete products, categories, and product tags.
                   </p>
                 </div>
               </div>
