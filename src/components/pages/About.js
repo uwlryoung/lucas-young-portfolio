@@ -3,7 +3,7 @@ import headshot from "../../assets/images/headshot.png";
 
 export default function About() {
   return (
-    <div className="m-4">
+    <div className="m-4 info-section">
       <h2>About</h2>
       <div className="container-fluid">
         <div className="row justify-content-start">

@@ -9,6 +9,15 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.portfolio {
+  background-color: var(--tan);
+  /* padding: 10px; */
+}
+
+.info-section {
+  min-height: 350px;
+}
+
 header {
   background-color: var(--lightBlue);
   color: darkblue;
@@ -65,5 +74,24 @@ div h2 {
 }
 
 .group-project-pic:hover {
+  opacity: 60%;
+}
+
+.footer {
+  background-color: var(--lightBlue);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  font-size: 80px;
+  padding: 10px;
+  color: black;
+  opacity: 90%;
+}
+
+.icons:hover {
   opacity: 60%;
 }

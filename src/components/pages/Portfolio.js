@@ -10,10 +10,17 @@ import snsApi from "../../assets/images/sns-api.png";
 import techBlog from "../../assets/images/tech-blog.png";
 import employeeTracker from "../../assets/images/employee-tracker.png";
 import ecommerceDb from "../../assets/images/ecommerce.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGitSquare,
+  faGithub,
+  faGithubSquare,
+} from "@fortawesome/free-brands-svg-icons";
+const github = <FontAwesomeIcon icon={faGithubSquare} />;
 
 export default function Portfolio() {
   return (
-    <div className="m-4">
+    <div className="m-4 info-section">
       <h2>Portfolio</h2>
       <Accordion className="acc-text">
         <Accordion.Item eventKey="0">
@@ -39,13 +46,24 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1"></div>
+                <div className="col-1">
+                  <a
+                    href="https://github.com/uwlryoung"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
                 <div className="col">
                   <p>
                     Create your own characters, giving them traits and a
                     backstory. Comment on other user's characters
                   </p>
-                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
                     <li>SQL</li>
                     <li>Express</li>
                     <li>Node.js</li>
@@ -71,14 +89,25 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1"></div>
+                <div className="col-1">
+                  <a
+                    href="https://github.com/uwlryoung"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
                 <div className="col">
                   <p>
-                    Search for movies and get its related information
-                    (summary, actors, release date) along with gif images
-                    related to that movie and its actors.
+                    Search for movies and get its related information (summary,
+                    actors, release date) along with gif images related to that
+                    movie and its actors.
                   </p>
-                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
                     <li>JQuery</li>
                     <li>Bulma</li>
                     <li>OMBD & Giphy API</li>
@@ -103,14 +132,25 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1"></div>
+                <div className="col-1">
+                  <a
+                    href="https://github.com/uwlryoung"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
                 <div className="col">
                   <p>
                     A text editor that takes notes with JavaScript syntax
                     highlighting. It can be used from the browser and downloaded
                     as an app on a browser. A Progressive Web App (PWA).
                   </p>
-                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
                     <li>Express</li>
                     <li>Node.js</li>
                     <li>Webpack</li>
@@ -137,12 +177,23 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1"></div>
+                <div className="col-1">
+                  <a
+                    href="https://github.com/uwlryoung"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
                 <div className="col">
                   <p>
-                    A blog-site for users to make posts and comment on posts. 
+                    A blog-site for users to make posts and comment on posts.
                   </p>
-                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
                     <li>SQL</li>
                     <li>Express</li>
                     <li>Node.js</li>
@@ -157,7 +208,11 @@ export default function Portfolio() {
               </div>
               <div className="row d-flex border-bottom pb-3">
                 <div className="col">
-                  <a href="https://uwlryoung.github.io/weather-forecaster/" rel="noreferrer" target="_blank">
+                  <a
+                    href="https://uwlryoung.github.io/weather-forecaster/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <img
                       src={weatherForecaster}
                       className="group-project-pic"
@@ -165,13 +220,24 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1"></div>
+                <div className="col-1">
+                  <a
+                    href="https://github.com/uwlryoung"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
                 <div className="col">
                   <p>
                     A Weather Dashboard to searh for the weather in different
                     cities, giving a current weather and 5-day forecast.
                   </p>
-                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
                     <li>JQuery</li>
                     <li>Bootstrap</li>
                     <li>OpenWeather API</li>
@@ -184,7 +250,11 @@ export default function Portfolio() {
               </div>
               <div className="row d-flex border-bottom pb-3">
                 <div className="col">
-                  <a href="https://uwlryoung.github.io/coding-quiz/" rel="noreferrer" target="_blank">
+                  <a
+                    href="https://uwlryoung.github.io/coding-quiz/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <img
                       src={codingQuiz}
                       className="group-project-pic"
@@ -192,13 +262,24 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1"></div>
+                <div className="col-1">
+                  <a
+                    href="https://github.com/uwlryoung"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
                 <div className="col">
                   <p>
                     A Quiz Game to test a user's knowledge about HTML, CSS and
                     JavaScript.
                   </p>
-                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
                     <li>HTML / CSS / JavaScript</li>
                   </ul>
                 </div>
@@ -229,7 +310,16 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1"></div>
+                <div className="col-1">
+                  <a
+                    href="https://github.com/uwlryoung"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
                 <div className="col">
                   <p>
                     A backend database for a social network where you can
@@ -237,7 +327,9 @@ export default function Portfolio() {
                     add/delete thought reactions, and add/remove users as
                     friends.
                   </p>
-                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
                     <li>MongDb / Mongoose</li>
                     <li>Express</li>
                     <li>Node.js</li>
@@ -262,14 +354,25 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1"></div>
+                <div className="col-1">
+                  <a
+                    href="https://github.com/uwlryoung"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
                 <div className="col">
                   <p>
                     Command Line Interface program to create README.md files.
                     User is given prompts to answer to generate a README.md
                     file.
                   </p>
-                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
                     <li>Node.js</li>
                     <li>JavaScript</li>
                     <li>Inquirer</li>
@@ -293,11 +396,31 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1"></div>
+                <div className="col-1">
+                  <a
+                    href="https://github.com/uwlryoung"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
                 <div className="col">
                   <p>
-                    A backend database for a company to keep track of employees. Users can interact with the databse by viewing the different departments, roles, employees and add/delete/edit those categories. 
+                    A backend database for a company to keep track of employees.
+                    Users can interact with the databse by viewing the different
+                    departments, roles, employees and add/delete/edit those
+                    categories.
                   </p>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
+                    <li>SQL</li>
+                    <li>Node.js</li>
+                    <li>JavaScript</li>
+                    <li>Inquirer</li>
+                  </ul>
                 </div>
               </div>
               <div className="row pt-3">
@@ -317,12 +440,24 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1"></div>
+                <div className="col-1">
+                  <a
+                    href="https://github.com/uwlryoung"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
                 <div className="col">
                   <p>
-                    A backend database for an ecommerce website where you can add/update/delete products, categories, and product tags.
+                    A backend database for an ecommerce website where you can
+                    add/update/delete products, categories, and product tags.
                   </p>
-                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
                     <li>SQL</li>
                     <li>Express</li>
                     <li>Node.js</li>
