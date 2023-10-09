@@ -44,6 +44,20 @@ div h2 {
 
 .acc-header {
   font-size: 30px;
+  color: darkblue;
+}
+
+.acc-text {
+  font-size: 20px;
+}
+
+.tech-list {
+  list-style: none;
+}
+
+.technologies {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .group-project-pic {

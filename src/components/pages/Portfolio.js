@@ -15,7 +15,7 @@ export default function Portfolio() {
   return (
     <div className="m-4">
       <h2>Portfolio</h2>
-      <Accordion>
+      <Accordion className="acc-text">
         <Accordion.Item eventKey="0">
           <Accordion.Header>
             <span className="acc-header">Fullstack Web Apps</span>
@@ -25,7 +25,7 @@ export default function Portfolio() {
               <div className="row">
                 <h4>Character Creatornator</h4>
               </div>
-              <div className="row d-flex align-items-center border-bottom pb-3">
+              <div className="row d-flex border-bottom pb-3">
                 <div className="col">
                   <a
                     href="https://intense-taiga-65507-7eac3b308146.herokuapp.com/"
@@ -45,12 +45,19 @@ export default function Portfolio() {
                     Create your own characters, giving them traits and a
                     backstory. Comment on other user's characters
                   </p>
+                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                    <li>SQL</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>Handlebars.js</li>
+                    <li>HTML / CSS / JavaScript</li>
+                  </ul>
                 </div>
               </div>
               <div className="row pt-3">
                 <h4>Movie Giphy</h4>
               </div>
-              <div className="row d-flex align-items-center border-bottom pb-3">
+              <div className="row d-flex border-bottom pb-3">
                 <div className="col">
                   <a
                     href="https://uwlryoung.github.io/movie-giphy/"
@@ -67,16 +74,22 @@ export default function Portfolio() {
                 <div className="col-1"></div>
                 <div className="col">
                   <p>
-                    Search for movies and get information about the movie
+                    Search for movies and get its related information
                     (summary, actors, release date) along with gif images
-                    related to that movie and its top three actors.
+                    related to that movie and its actors.
                   </p>
+                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                    <li>JQuery</li>
+                    <li>Bulma</li>
+                    <li>OMBD & Giphy API</li>
+                    <li>HTML / CSS / JavaScript</li>
+                  </ul>
                 </div>
               </div>
               <div className="row pt-3">
                 <h4>J.A.T.E. (Just Another Text Editor)</h4>
               </div>
-              <div className="row d-flex align-items-center border-bottom pb-3">
+              <div className="row d-flex border-bottom pb-3">
                 <div className="col">
                   <a
                     href="https://boiling-gorge-54353-e992da97eda8.herokuapp.com/"
@@ -97,12 +110,20 @@ export default function Portfolio() {
                     highlighting. It can be used from the browser and downloaded
                     as an app on a browser. A Progressive Web App (PWA).
                   </p>
+                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>Webpack</li>
+                    <li>IndexedDb</li>
+                    <li>Workbox</li>
+                    <li>HTML / CSS / JavaScript</li>
+                  </ul>
                 </div>
               </div>
               <div className="row pt-3">
                 <h4>Tech Blogsite</h4>
               </div>
-              <div className="row d-flex align-items-center border-bottom pb-3">
+              <div className="row d-flex border-bottom pb-3">
                 <div className="col">
                   <a
                     href="https://cms-tech-blog-1-7f60cfc438f7.herokuapp.com/"
@@ -119,22 +140,30 @@ export default function Portfolio() {
                 <div className="col-1"></div>
                 <div className="col">
                   <p>
-                    Search for movies and get information about the movie
-                    (summary, actors, release date) along with gif images
-                    related to that movie and its top three actors.
+                    A blog-site for users to make posts and comment on posts. 
                   </p>
+                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                    <li>SQL</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>Bootstrap</li>
+                    <li>Handlebars.js</li>
+                    <li>HTML / CSS / JavaScript</li>
+                  </ul>
                 </div>
               </div>
               <div className="row pt-3">
                 <h4>Weather Forecaster</h4>
               </div>
-              <div className="row d-flex align-items-center border-bottom pb-3">
+              <div className="row d-flex border-bottom pb-3">
                 <div className="col">
-                  <img
-                    src={weatherForecaster}
-                    className="group-project-pic"
-                    alt="project screenshot"
-                  />
+                  <a href="https://uwlryoung.github.io/weather-forecaster/" rel="noreferrer" target="_blank">
+                    <img
+                      src={weatherForecaster}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
                 </div>
                 <div className="col-1"></div>
                 <div className="col">
@@ -142,14 +171,20 @@ export default function Portfolio() {
                     A Weather Dashboard to searh for the weather in different
                     cities, giving a current weather and 5-day forecast.
                   </p>
+                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                    <li>JQuery</li>
+                    <li>Bootstrap</li>
+                    <li>OpenWeather API</li>
+                    <li>HTML / CSS / JavaScript</li>
+                  </ul>
                 </div>
               </div>
               <div className="row pt-3">
                 <h4>Coding Quiz</h4>
               </div>
-              <div className="row d-flex align-items-center border-bottom pb-3">
+              <div className="row d-flex border-bottom pb-3">
                 <div className="col">
-                  <a href="https://uwlryoung.github.io/coding-quiz/">
+                  <a href="https://uwlryoung.github.io/coding-quiz/" rel="noreferrer" target="_blank">
                     <img
                       src={codingQuiz}
                       className="group-project-pic"
@@ -163,6 +198,9 @@ export default function Portfolio() {
                     A Quiz Game to test a user's knowledge about HTML, CSS and
                     JavaScript.
                   </p>
+                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                    <li>HTML / CSS / JavaScript</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -177,7 +215,7 @@ export default function Portfolio() {
               <div className="row">
                 <h4>Social Network API</h4>
               </div>
-              <div className="row d-flex align-items-cente border-bottom pb-3">
+              <div className="row d-flex border-bottom pb-3">
                 <div className="col">
                   <a
                     href="https://github.com/uwlryoung/social-network-api"
@@ -199,12 +237,18 @@ export default function Portfolio() {
                     add/delete thought reactions, and add/remove users as
                     friends.
                   </p>
+                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                    <li>MongDb / Mongoose</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>JavaScript</li>
+                  </ul>
                 </div>
               </div>
               <div className="row pt-3">
                 <h4>Readme Generator</h4>
               </div>
-              <div className="row d-flex align-items-cente border-bottom pb-3">
+              <div className="row d-flex border-bottom pb-3">
                 <div className="col">
                   <a
                     href="https://github.com/uwlryoung/readme-generator"
@@ -225,12 +269,17 @@ export default function Portfolio() {
                     User is given prompts to answer to generate a README.md
                     file.
                   </p>
+                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                    <li>Node.js</li>
+                    <li>JavaScript</li>
+                    <li>Inquirer</li>
+                  </ul>
                 </div>
               </div>
               <div className="row pt-3">
                 <h4>Employee Tracker</h4>
               </div>
-              <div className="row d-flex align-items-cente border-bottom pb-3">
+              <div className="row d-flex border-bottom pb-3">
                 <div className="col">
                   <a
                     href="https://github.com/uwlryoung/employee-tracker"
@@ -254,7 +303,7 @@ export default function Portfolio() {
               <div className="row pt-3">
                 <h4>E-commerce Backend</h4>
               </div>
-              <div className="row d-flex align-items-cente border-bottom pb-3">
+              <div className="row d-flex border-bottom pb-3">
                 <div className="col">
                   <a
                     href="https://github.com/uwlryoung/e-commerce-backend"
@@ -273,6 +322,13 @@ export default function Portfolio() {
                   <p>
                     A backend database for an ecommerce website where you can add/update/delete products, categories, and product tags.
                   </p>
+                  <ul className="tech-list"> <span className="technologies">Technologies Used</span>
+                    <li>SQL</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>JavaScript</li>
+                    <li>Inquirer</li>
+                  </ul>
                 </div>
               </div>
             </div>
