@@ -11,11 +11,7 @@ import techBlog from "../../assets/images/tech-blog.png";
 import employeeTracker from "../../assets/images/employee-tracker.png";
 import ecommerceDb from "../../assets/images/ecommerce.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGitSquare,
-  faGithub,
-  faGithubSquare,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 const github = <FontAwesomeIcon icon={faGithubSquare} />;
 
 export default function Portfolio() {
@@ -25,15 +21,15 @@ export default function Portfolio() {
       <Accordion className="acc-text">
         <Accordion.Item eventKey="0">
           <Accordion.Header>
+{/* Fullstack Web Apps --------------------------------------------------------- */}
             <span className="acc-header">Fullstack Web Apps</span>
           </Accordion.Header>
           <Accordion.Body>
+  {/* Character Creatornator ----------------------------------------------------- */}
             <div className="container-fluid">
-              <div className="row">
-                <h4>Character Creatornator</h4>
-              </div>
-              <div className="row d-flex border-bottom pb-3">
-                <div className="col">
+              <div className="row border-bottom pb-3">
+                <div className="col d-flex flex-column justify-content-center">
+                  <h4>Character Creatornator</h4>
                   <a
                     href="https://intense-taiga-65507-7eac3b308146.herokuapp.com/"
                     rel="noreferrer"
@@ -46,9 +42,9 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="col-1 d-flex align-items-center">
                   <a
-                    href="https://github.com/uwlryoung"
+                    href="https://github.com/Z-Alfadl/Character-Creator"
                     rel="noreferrer"
                     target="_blank"
                     className="icons"
@@ -72,11 +68,10 @@ export default function Portfolio() {
                   </ul>
                 </div>
               </div>
-              <div className="row pt-3">
-                <h4>Movie Giphy</h4>
-              </div>
-              <div className="row d-flex border-bottom pb-3">
-                <div className="col">
+  {/* Movie Giphy ------------------------------------------------------------- */}
+              <div className="row border-bottom pb-3 pt-3">
+                <div className="col d-flex flex-column justify-content-center">
+                  <h4>Movie Giphy</h4>
                   <a
                     href="https://uwlryoung.github.io/movie-giphy/"
                     rel="noreferrer"
@@ -89,9 +84,9 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="col-1 d-flex align-items-center">
                   <a
-                    href="https://github.com/uwlryoung"
+                    href="https://github.com/uwlryoung/movie-giphy"
                     rel="noreferrer"
                     target="_blank"
                     className="icons"
@@ -115,11 +110,10 @@ export default function Portfolio() {
                   </ul>
                 </div>
               </div>
-              <div className="row pt-3">
-                <h4>J.A.T.E. (Just Another Text Editor)</h4>
-              </div>
-              <div className="row d-flex border-bottom pb-3">
-                <div className="col">
+  {/* JATE ------------------------------------------------------------------------ */}
+              <div className="row border-bottom pb-3 pt-3">
+                <div className="col d-flex flex-column justify-content-center">
+                  <h4>J.A.T.E. (Just Another Text Editor)</h4>
                   <a
                     href="https://boiling-gorge-54353-e992da97eda8.herokuapp.com/"
                     rel="noreferrer"
@@ -132,9 +126,9 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="col-1 d-flex align-items-center">
                   <a
-                    href="https://github.com/uwlryoung"
+                    href="https://github.com/uwlryoung/just-another-text-editor"
                     rel="noreferrer"
                     target="_blank"
                     className="icons"
@@ -160,11 +154,10 @@ export default function Portfolio() {
                   </ul>
                 </div>
               </div>
-              <div className="row pt-3">
-                <h4>Tech Blogsite</h4>
-              </div>
-              <div className="row d-flex border-bottom pb-3">
-                <div className="col">
+  {/* Tech Blogsite ---------------------------------------------------------- */}
+              <div className="row border-bottom pb-3 pt-3">
+                <div className="col d-flex flex-column justify-content-center">
+                  <h4>Tech Blogsite</h4>
                   <a
                     href="https://cms-tech-blog-1-7f60cfc438f7.herokuapp.com/"
                     rel="noreferrer"
@@ -177,9 +170,9 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="col-1 d-flex align-items-center">
                   <a
-                    href="https://github.com/uwlryoung"
+                    href="https://github.com/uwlryoung/blog-site"
                     rel="noreferrer"
                     target="_blank"
                     className="icons"
@@ -203,11 +196,10 @@ export default function Portfolio() {
                   </ul>
                 </div>
               </div>
-              <div className="row pt-3">
-                <h4>Weather Forecaster</h4>
-              </div>
-              <div className="row d-flex border-bottom pb-3">
-                <div className="col">
+  {/* Weather Forecaster ---------------------------------------------------------- */}
+              <div className="row border-bottom pb-3 pt-3">
+                <div className="col d-flex flex-column justify-content-center">
+                  <h4>Weather Forecaster</h4>
                   <a
                     href="https://uwlryoung.github.io/weather-forecaster/"
                     rel="noreferrer"
@@ -220,9 +212,9 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="col-1 d-flex align-items-center">
                   <a
-                    href="https://github.com/uwlryoung"
+                    href="https://github.com/uwlryoung/weather-forecaster"
                     rel="noreferrer"
                     target="_blank"
                     className="icons"
@@ -245,11 +237,10 @@ export default function Portfolio() {
                   </ul>
                 </div>
               </div>
-              <div className="row pt-3">
-                <h4>Coding Quiz</h4>
-              </div>
-              <div className="row d-flex border-bottom pb-3">
-                <div className="col">
+  {/* Coding Quiz---------------------------------------------------------- */}
+              <div className="row border-bottom pb-3 pt-3">
+                <div className="col d-flex flex-column justify-content-center">
+                  <h4>Coding Quiz</h4>
                   <a
                     href="https://uwlryoung.github.io/coding-quiz/"
                     rel="noreferrer"
@@ -262,9 +253,9 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="col-1 d-flex align-items-center">
                   <a
-                    href="https://github.com/uwlryoung"
+                    href="https://github.com/uwlryoung/coding-quiz"
                     rel="noreferrer"
                     target="_blank"
                     className="icons"
@@ -287,17 +278,17 @@ export default function Portfolio() {
             </div>
           </Accordion.Body>
         </Accordion.Item>
+{/* Backend Apps --------------------------------------------------------------- */}
         <Accordion.Item eventKey="1">
           <Accordion.Header>
             <span className="acc-header">Backend Projects</span>
           </Accordion.Header>
           <Accordion.Body>
+  {/* Social Network API ----------------------------------------------------- */}
             <div className="container-fluid">
-              <div className="row">
+              <div className="row border-bottom pb-3 pt-3">
+                <div className="col d-flex flex-column justify-content-center">
                 <h4>Social Network API</h4>
-              </div>
-              <div className="row d-flex border-bottom pb-3">
-                <div className="col">
                   <a
                     href="https://github.com/uwlryoung/social-network-api"
                     rel="noreferrer"
@@ -310,9 +301,9 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="col-1 d-flex align-items-center">
                   <a
-                    href="https://github.com/uwlryoung"
+                    href="https://github.com/uwlryoung/social-network-api"
                     rel="noreferrer"
                     target="_blank"
                     className="icons"
@@ -337,11 +328,10 @@ export default function Portfolio() {
                   </ul>
                 </div>
               </div>
-              <div className="row pt-3">
-                <h4>Readme Generator</h4>
-              </div>
-              <div className="row d-flex border-bottom pb-3">
-                <div className="col">
+  {/* Readme Generator ----------------------------------------------------- */}
+              <div className="row border-bottom pb-3 pt-3">
+                <div className="col d-flex flex-column justify-content-center">
+                  <h4>Readme Generator</h4>
                   <a
                     href="https://github.com/uwlryoung/readme-generator"
                     rel="noreferrer"
@@ -354,9 +344,9 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="col-1 d-flex align-items-center">
                   <a
-                    href="https://github.com/uwlryoung"
+                    href="https://github.com/uwlryoung/readme-generator"
                     rel="noreferrer"
                     target="_blank"
                     className="icons"
@@ -379,11 +369,10 @@ export default function Portfolio() {
                   </ul>
                 </div>
               </div>
-              <div className="row pt-3">
-                <h4>Employee Tracker</h4>
-              </div>
-              <div className="row d-flex border-bottom pb-3">
-                <div className="col">
+  {/* Employee Tracker ----------------------------------------------------- */}
+              <div className="row border-bottom pb-3 pt-3">
+                <div className="col d-flex flex-column justify-content-center">
+                  <h4>Employee Tracker</h4>
                   <a
                     href="https://github.com/uwlryoung/employee-tracker"
                     rel="noreferrer"
@@ -396,9 +385,9 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="col-1 d-flex align-items-center">
                   <a
-                    href="https://github.com/uwlryoung"
+                    href="https://github.com/uwlryoung/employee-tracker"
                     rel="noreferrer"
                     target="_blank"
                     className="icons"
@@ -423,11 +412,10 @@ export default function Portfolio() {
                   </ul>
                 </div>
               </div>
-              <div className="row pt-3">
-                <h4>E-commerce Backend</h4>
-              </div>
-              <div className="row d-flex border-bottom pb-3">
-                <div className="col">
+  {/* E-commerce Backend ----------------------------------------------------- */}
+              <div className="row border-bottom pb-3 pt-3">
+                <div className="col d-flex flex-column justify-content-center">
+                  <h4>E-commerce Backend</h4>
                   <a
                     href="https://github.com/uwlryoung/e-commerce-backend"
                     rel="noreferrer"
@@ -440,9 +428,9 @@ export default function Portfolio() {
                     />
                   </a>
                 </div>
-                <div className="col-1">
+                <div className="col-1 d-flex align-items-center">
                   <a
-                    href="https://github.com/uwlryoung"
+                    href="https://github.com/uwlryoung/e-commerce-backend"
                     rel="noreferrer"
                     target="_blank"
                     className="icons"
