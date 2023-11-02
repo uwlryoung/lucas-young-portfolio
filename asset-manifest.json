@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/lucas-young-portfolio/static/css/main.062c4182.css",
-    "main.js": "/lucas-young-portfolio/static/js/main.e4fb3a74.js",
+    "main.js": "/lucas-young-portfolio/static/js/main.e9e77700.js",
     "static/media/movie-giphy.png": "/lucas-young-portfolio/static/media/movie-giphy.65d618b193ba85eba768.png",
     "static/media/headshot.png": "/lucas-young-portfolio/static/media/headshot.14b4760f9ac9c078ef9a.png",
     "static/media/character-creator.png": "/lucas-young-portfolio/static/media/character-creator.da98ef224c83202bea4a.png",
+    "static/media/petspot.png": "/lucas-young-portfolio/static/media/petspot.d1fd53038c5db69268ae.png",
     "static/media/weather-forecaster.png": "/lucas-young-portfolio/static/media/weather-forecaster.95b1f3e70f50468775e9.png",
     "static/media/tech-blog.png": "/lucas-young-portfolio/static/media/tech-blog.208578fc670dcd1279ed.png",
     "static/media/coding-quiz.png": "/lucas-young-portfolio/static/media/coding-quiz.7612c29dc0e33d386b04.png",
@@ -15,10 +16,10 @@
     "static/media/readme-generator.png": "/lucas-young-portfolio/static/media/readme-generator.7fcdb8df2d85cf5e7de9.png",
     "index.html": "/lucas-young-portfolio/index.html",
     "main.062c4182.css.map": "/lucas-young-portfolio/static/css/main.062c4182.css.map",
-    "main.e4fb3a74.js.map": "/lucas-young-portfolio/static/js/main.e4fb3a74.js.map"
+    "main.e9e77700.js.map": "/lucas-young-portfolio/static/js/main.e9e77700.js.map"
   },
   "entrypoints": [
     "static/css/main.062c4182.css",
-    "static/js/main.e4fb3a74.js"
+    "static/js/main.e9e77700.js"
   ]
 }
