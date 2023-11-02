@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import petSpot from "../../assets/images/petspot.png"
 import characterCreator from "../../assets/images/character-creator.png";
 import movieGiphy from "../../assets/images/movie-giphy.png";
 import readMeGenerator from "../../assets/images/readme-generator.png";
@@ -25,8 +26,52 @@ export default function Portfolio() {
             <span className="acc-header">Fullstack Web Apps</span>
           </Accordion.Header>
           <Accordion.Body>
-  {/* Character Creatornator ----------------------------------------------------- */}
+  {/* Pet Spot ----------------------------------------------------- */}
             <div className="container-fluid">
+              <div className="row border-bottom pb-3">
+                <div className="col d-flex flex-column justify-content-center">
+                  <h4>Pet Spot</h4>
+                  <a
+                    href="https://shielded-beach-29867-5efce834725b.herokuapp.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={petSpot}
+                      className="group-project-pic"
+                      alt="project screenshot"
+                    />
+                  </a>
+                </div>
+                <div className="col-1 d-flex align-items-center">
+                  <a
+                    href="https://github.com/youssefkaroui/pets-spot"
+                    rel="noreferrer"
+                    target="_blank"
+                    className="icons"
+                  >
+                    {github}
+                  </a>
+                </div>
+                <div className="col">
+                  <p>
+                    Create your own characters, giving them traits and a
+                    backstory. Comment on other user's characters
+                  </p>
+                  <ul className="tech-list">
+                    {" "}
+                    <span className="technologies">Technologies Used</span>
+                    <li>MongoDb / Mongoose</li>
+                    <li>GraphQL / Apollo</li>
+                    <li>React</li>
+                    <li>Chakra UI</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>HTML / CSS / JavaScript</li>
+                  </ul>
+                </div>
+              </div>
+  {/* Character Creatornator ----------------------------------------------------- */}
               <div className="row border-bottom pb-3">
                 <div className="col d-flex flex-column justify-content-center">
                   <h4>Character Creatornator</h4>
