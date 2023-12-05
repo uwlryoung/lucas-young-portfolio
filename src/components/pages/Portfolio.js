@@ -55,8 +55,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col">
                   <p>
-                    Create your own characters, giving them traits and a
-                    backstory. Comment on other user's characters
+                    A pet adoption website. Users search for pets to adopt, favorite them to show interest, and/or they can put their own pet up for adoption. 
                   </p>
                   <ul className="tech-list">
                     {" "}
