@@ -4,6 +4,7 @@ export default function Resume() {
   return (
     <div class="m-4 info-section">
       <h2>Resume</h2>
+      <h5>Download Resume <a href="https://drive.google.com/uc?export=download&id=1zp5PwW0rxFeVE4EoVVEM-6lYhxlQnMyD">here</a></h5>
       <h3> Front-end Proficiences</h3>
       <ul>
         <li>HTML</li>
@@ -11,6 +12,8 @@ export default function Resume() {
         <li>JavaScript</li>
         <li>JQuery</li>
         <li>React</li>
+        <li>Redux</li>
+        <li>Chakra</li>
         <li>Bootstrap</li>
         <li>Handlebars</li>
         <li>responsive design</li>

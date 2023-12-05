@@ -19,6 +19,7 @@ export default function Contact() {
   return (
     <div className="m-4 info-section">
       <h2>Contact</h2>
+      <h5>Email me at <a href="mailto:uwlryoung@gmail.com">uwlryoung@gmail.com</a>, of fill out the form below to directly send me an email and I will get back to you as soon as possible!</h5><br></br>
 
       <Form onSubmit={sendEmail}>
         <Form.Group className="mb-3">
