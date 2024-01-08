@@ -203,7 +203,7 @@ export default function Portfolio() {
                 <div className="col d-flex flex-column justify-content-center">
                   <h4>Tech Blogsite</h4>
                   <a
-                    href="https://cms-tech-blog-1-7f60cfc438f7.herokuapp.com/"
+                    href="https://vast-reaches-27780-fa2d1eebad1b.herokuapp.com/"
                     rel="noreferrer"
                     target="_blank"
                   >
