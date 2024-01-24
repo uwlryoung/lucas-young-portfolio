@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <div class="m-4 info-section">
       <h2>Resume</h2>
-      <h5>Download Resume <a href="https://drive.google.com/uc?export=download&id=1IwI_p6yqoDu33Sp0C6ibAI2RX8uvOu03">here</a></h5>
+      <h5>Download Resume <a href="https://drive.google.com/uc?export=download&id=1laBgpYjjBgcpgfnnts5JqUDW3p7CmHnG">here</a></h5>
       <h3> Front-end Proficiences</h3>
       <ul>
         <li>HTML</li>
