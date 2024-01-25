@@ -23,7 +23,7 @@ export default function Portfolio() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>
 {/* Fullstack Web Apps --------------------------------------------------------- */}
-            <span className="acc-header">Fullstack Web Apps</span>
+            <span className="acc-header">Full Stack Web Apps</span>
           </Accordion.Header>
           <Accordion.Body>
   {/* Pet Spot ----------------------------------------------------- */}
@@ -322,10 +322,10 @@ export default function Portfolio() {
             </div>
           </Accordion.Body>
         </Accordion.Item>
-{/* Backend Apps --------------------------------------------------------------- */}
+{/* Back-end Apps --------------------------------------------------------------- */}
         <Accordion.Item eventKey="1">
           <Accordion.Header>
-            <span className="acc-header">Backend Projects</span>
+            <span className="acc-header">Back-end Projects</span>
           </Accordion.Header>
           <Accordion.Body>
   {/* Social Network API ----------------------------------------------------- */}
@@ -357,7 +357,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col">
                   <p>
-                    A backend database for a social network where you can
+                    A back-end database for a social network where you can
                     add/update/delete users, add/update/delete user thoughts,
                     add/delete thought reactions, and add/remove users as
                     friends.
@@ -441,7 +441,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col">
                   <p>
-                    A backend database for a company to keep track of employees.
+                    A back-end database for a company to keep track of employees.
                     Users can interact with the databse by viewing the different
                     departments, roles, employees and add/delete/edit those
                     categories.
@@ -456,10 +456,10 @@ export default function Portfolio() {
                   </ul>
                 </div>
               </div>
-  {/* E-commerce Backend ----------------------------------------------------- */}
+  {/* E-commerce Back-end ----------------------------------------------------- */}
               <div className="row border-bottom pb-3 pt-3">
                 <div className="col d-flex flex-column justify-content-center">
-                  <h4>E-commerce Backend</h4>
+                  <h4>E-commerce Back-end</h4>
                   <a
                     href="https://github.com/uwlryoung/e-commerce-backend"
                     rel="noreferrer"
@@ -484,7 +484,7 @@ export default function Portfolio() {
                 </div>
                 <div className="col">
                   <p>
-                    A backend database for an ecommerce website where you can
+                    A back-end database for an ecommerce website where you can
                     add/update/delete products, categories, and product tags.
                   </p>
                   <ul className="tech-list">
