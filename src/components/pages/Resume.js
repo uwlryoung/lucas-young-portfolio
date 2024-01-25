@@ -12,21 +12,31 @@ export default function Resume() {
         <li>JavaScript</li>
         <li>JQuery</li>
         <li>React</li>
+        <li>NEXT.js</li>
         <li>Redux</li>
-        <li>Chakra</li>
+        <li>Chakra UI</li>
         <li>Bootstrap</li>
+        <li>React-Bootstrap</li>
+        <li>Bulma</li>
         <li>Handlebars</li>
         <li>responsive design</li>
+        <li>Local Storage, Session Storage, IndexedDB</li>
       </ul>
-      <h3> Back-end Proficiences</h3>
+      <h3>Back-end Proficiences</h3>
       <ul>
         <li>APIs</li>
         <li>Node.js</li>
         <li>Express</li>
         <li>MySQL / Sequelize</li>
         <li>MongoDb / Mongoose</li>
-        <li>REST</li>
-        <li>GraphQL</li>
+        <li>REST APIs</li>
+        <li>GraphQL / GraphQL Apollo</li>
+      </ul>
+      <h3>Other</h3>
+      <ul>
+        <li>Git</li>
+        <li>Jest</li>
+        <li>Insomnia</li>
       </ul>
     </div>
   );
