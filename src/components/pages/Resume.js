@@ -4,12 +4,13 @@ export default function Resume() {
   return (
     <div class="m-4 info-section">
       <h2>Resume</h2>
-      <h5>Download Resume <a href="https://drive.google.com/uc?export=download&id=15I5BsvD-y3w9XhxpJXl50Dx25dBzbBWz">here</a></h5>
+      <h5>Download Resume <a href="https://drive.google.com/uc?export=download&id=1gEOpQ69SqlefcVhJLHeHlZc2CCyd0-Eu">here</a></h5>
       <h3> Front-end Proficiences</h3>
       <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
+        <li>TypeScript</li>
         <li>JQuery</li>
         <li>React</li>
         <li>NEXT.js</li>
