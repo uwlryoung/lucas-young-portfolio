@@ -16,6 +16,7 @@ export default function Resume() {
         <li>NEXT.js</li>
         <li>Redux</li>
         <li>Chakra UI</li>
+        <li>Tailwind CSS</li>
         <li>Bootstrap</li>
         <li>React-Bootstrap</li>
         <li>Bulma</li>
